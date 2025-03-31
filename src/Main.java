@@ -1,3 +1,4 @@
+import java.sql.SQLOutput;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -176,6 +177,8 @@ public class Main {
         result2.getSortedList();  //
 
         Result_OOP result3 = new Result_OOP();
+        double boofer = result3.getAverage();
+        System.out.println("Среднее значение для ООП объекта" + boofer);
 
         System.out.println("Это ООП вывод:");
         for (int num : result2) {
